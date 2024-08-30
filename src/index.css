@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[data-theme = 'light'] {
+    --bg-color : #F9F9F9;
+    --text-color:#000000;
+}
+
+[data-theme = 'dark'] {
+    --bg-color : #343A40;
+    --text-color: #ffffee;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+.coustom_text {
+    background: linear-gradient(25deg, #FF94CC 10%,#FFC107 90%);
+    color: transparent;
+    background-clip: text;
+}
+
+input,textarea {
+    background-color: #F9F9F9;
+}
+
+.single-news-container {
+    
+    overflow: hidden;
+}
+.single-news-container img {
+    transition: all 1s ease;
+}
+.single-news-container:hover  img {
+    scale: 1.2;
+}
