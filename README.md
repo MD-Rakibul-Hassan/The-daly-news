@@ -1,5 +1,7 @@
 # API : https://saurav.tech/NewsAPI/everything/cnn.json
 
+#Live Link : https://glowing-blancmange-c942d4.netlify.app/
+
 
 # Fetures
 1. Routing feture using react-router-dom, you can visit multiple page with out reload the web page.
